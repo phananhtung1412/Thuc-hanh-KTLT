@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="tong" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap so a: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Nhap so b: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="tong" expression="a + b"/>
+            <output expression="&quot;Tong = &quot; &amp; tong" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
