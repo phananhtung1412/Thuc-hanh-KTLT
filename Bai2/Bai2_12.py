@@ -15,9 +15,10 @@ for p in items:
     continue
   elif not re.search("[$#@]",p):
     continue
-  elif re.search("\s",p):
+  elif re.search("s",p):
     continue
   else:
     pass
   value.append(p)
 print (",".join(value))
+
